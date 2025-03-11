@@ -1268,7 +1268,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
         var url = _this.cart ? CART_ENDPOINT : FORM_ENDPOINT;
         try {
           _this.button.classList.add('loading');
-          var response = yield fetch(`http://stagedmitrii.com/user-website-api/${FORM_ENDPOINT}`, {
+          var response = yield fetch(url, {
             method: 'POST',
             body: JSON.stringify(payload),
             headers: {
