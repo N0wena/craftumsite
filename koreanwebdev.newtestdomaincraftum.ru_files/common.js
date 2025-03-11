@@ -1005,7 +1005,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
   'use strict';
 
   var base64ToString = window.userScripts.Util.base64ToString;
-  var ENDPOINT = 'http://stagedmitrii.com' + '/user-website-api';
+  var ENDPOINT = 'https://stagedmitrii.com' + '/user-website-api';
   // const ENDPOINT = 'https://qf4450.craftum.io' + '/user-website-api'
 
   var FORM_ENDPOINT = ENDPOINT + '/form/';
