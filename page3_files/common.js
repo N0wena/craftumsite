@@ -1025,8 +1025,8 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
   'use strict';
 
   var base64ToString = window.userScripts.Util.base64ToString;
-  var ENDPOINT = window.location.origin + '/user-website-api';
-  // const ENDPOINT = 'https://qf4450.craftum.io' + '/user-website-api'
+  // var ENDPOINT = window.location.origin + '/user-website-api';
+  const ENDPOINT = 'https://koreanwebdev.newtestdomaincraftum.ru' + '/user-website-api'
 
   var FORM_ENDPOINT = ENDPOINT + '/form/';
   var CART_ENDPOINT = ENDPOINT + '/checkout/';
